@@ -1,0 +1,73 @@
+asm ensamblador Se                   utiliza para incluir directamente codigo ensamblador en su programa C++. El uso correcto de asm depende de la implementacion.
+auto auto Deduce                   el tipo de una variable declarada a partir de su expresión de inicializacion.
+bool booleano Variable                   de tipo entero cuyo valores pueden ser true o false .Las funciones tipo bool indican que el tipo de dato que retornan las mismas.
+break quebrar Permite                   salir del bucle do while o for más interno. Tambien se utliza para salir de una sentencia switch.
+case caso Sirve                   para etiquetar los diferentes casos de la sentencia switch
+catch captura Se                   utiliza como mecanismo de tratamiento de excepciones. Su proposito es interceptar una excepcion generada por throw.
+char caracternulo Tipo                   de dato incorporado en C++. Se puede utilizar char para declarar variables caracter (tienen un rango de 0 a 255 en codigo ASCII).
+class clase Una                   clase contiene variables miembros datos y funciones miembro que operan sobre esas variables; asimismo una clase tiene un conjunto de especificadores que controlan el acceso a los miembros de la clase (private public y protected).
+const constante Es                   un calificador de tipo utilizado para indicar que la variable que le sigue no puede ser modificada por el programa.
+castconst_cast operador Permite                   acceder a un objeto con el atributo const o volatile adjuntado. El tipo T debe ser del mismo tipo que el operando e excepto para los modificadores const y volatile y el resultado evuelto por const_cast() es el mismo que e pero de tipo T.
+continue continuar Se                   utiliza continue en la ejecucion de un bucle. Es equivalente a ejecutar una sentencia goto al final del bucle. Esta sentencia afecta al bucle mas interno en el que aparece.
+utiliza en la        sentencia switch para marcar el código que se ejecutará cuando ninguna de las etiquetas de case se corresponde con la expresion
+delete eliminar El                   operador de asignacion dinamica delete se utiliza para liberar la memoria apuntada por su argumento (asignada utilizando new)
+do hacer La                   instruccion do ejecuta una instruccion o un bloque de instrucciones mientras que una expresion booleana especificada se evalua como true. Como esa expresion se evalua despues de cada ejecucion del bucle un bucle do-while se ejecuta una o varias veces.
+double doble Especificador                   de tipo de dato double que declara variables y arrays de coma flotante de doble.
+dynamic_cast repartodinamico Este                   operador se puede utilizar para moldear (convertir explicitamente) a un puntero o a un tipo referencia.
+estructura de control         if ... else ... permite que un programa ejecute unas instrucciones cuando se cumple una condicion y otras instrucciones cuando no se cumple esa condicion. En ingles "if" significa "si" (condicion) y "else" significa "si no".
+enum enumeracion Tipo                   de datos de valor entero que puede tomar sus valores de una lista de constantes enumerados.
+explicit explicito Declara                   un constructor explicito. Se utiliza para exponer variables pertenecientes a un archivo a uno o varios archivos adicionales.
+extern externo Especificador                   de clase de almacenamiento utilizado para indicar al compilador que una variable se declara en otra parte del programa.
+false falso Literal                   boolean de valor cero. Con el fin de facilitar la escritura y razonamientos de programas se admite el uso de variables bipolares.
+float flotante Es                   un especificador de tipos de datos utilizados para declarar variables de coma flotante esto es contienen un valor de mantisa y otro de exponente que codifican numeros con decimales.
+for desde El                   bucle for permite inicializar e incrementar variables contadores.
+friend amigo La                   palabra reservada friend se utiliza para garantizar el acceso a una parte privada (private) de una clase por una funcion que no es miembro de ella y a las partes protegidas (protected) de una clase de la cual no se derivan. Las funciones amigas pueden ser amigas de mas de una clase.
+goto ir-a Produce                   un salto en la ejecucion del programa a una etiqueta de la funcion actual. Su uso no esta recomendado mas que para situaciones excepcionales tales como la salida directa del bucle mas interior perteneciente a una serie de bucles anidados.
+if si Un                   if en programacion se utiliza para evaluar una expresion condicional: si se cumple la condición (es verdadera) ejecutara un bloque de codigo. Si es falsa es posible ejecutar otras sentencias. Como hemos dicho la condicion es una condicion logica solo devolvera true o false y se ejecutara si su valor es true .
+inline en-linea El                   especificador inline instruye al compilador para sustituir las llamadas a funciones con el codigo del cuerpo de la funcion. Esta sustitucion se denomina expansion en linea.El uso de las funciones en linea incrementa el tamaño del programa objeto.
+Principal de tipo                 para  variables y arrays de enteros. Los cualificadores short y long se pueden utilizar para declarar un entero del tamaño deseado.
+long prolongado El                   formato de variable numerica de tipo extendido “long” se refiere a numeros enteros (tipo 32 bits = 4 bytes) sin decimales que se encuentran dentro del rango -2147483648 a 2147483647.
+mutable mudable Un                   valor de tipo mutable se puede cambiar en un futuro una vez guardado en una posición de memoria y si se tiene que utilizar se utiliza el mismo objeto siempre apuntado desde diferentes variables.
+namespace sectordenombres Es                   un conjunto de nombres en el cual todos los nombres son unicos. Un espacio de nombres es un contenedor abstracto en el que un grupo de uno o mas identificadores unicos pueden existir.
+new nuevo Implica                   que se producen dos acciones: a) Creacion de un objeto de un tipo definido por una clase.
+operator operador Los                   operadores junto con los operandos forman una expresion que es una fórmula que define el calculo de un valor.
+private privado El                   modificador de acceso privado especifica campos y métodos de una clase que no son accesible fuera de la unidad donde se declara la clase.
+protected protegida Si                   una clase hereda de otra tendra acceso a las variables/funciones protegidas de la super-clase de lo contrario no podra acceder a ellas.
+public publico El                   acceso publico es el nivel normal para un elemento de programacion cuando no es necesario limitar el acceso a el.
+register registro Es                   un especificador de tipo de almacenamiento ; se utiliza para indicar al compilador que ciertas variables (normalmente del tipo int y char) deben ser almacenadas en los registros del procesador en lugar de la pila.
+reinterpret_castre interpretedereparto Tipo                   de conversion que se utiliza por este tipo de operador .Obliga al compilador a aceptar un tipo de objeto por otro sin rechazarlo.
+return retorno tiene                   dos usos importantes. Primero fuerza una salida inmediata de la funcion en que se encuentra. O sea hace que la ejecucion del programa vuelva al codigo que llamo a la funcion. En segundo lugar se puede utilizar para devolver un valor.
+short variablecorta El                   tipo de variable short tiene el tamaño de 2 bytes (16 bits) permite representar la multitud de valores igual a 2 elevado a 16: 2^16 = 65 536.
+signed firmada Define                   que el valor de una variable numerica puede ser positivo o negativo.
+sizeof tamañodealmacenamiento Se                   encarga de reservar memoria para saber exactamente si el numero de bytes que ocupa cualquier estructura de datos.
+static estatica Una                   variable estatica es una variable que ha sido ubicada estáticamente y cuyo tiempo de vida se extiende durante toda la ejecucion del programa.
+static_cast operadorestatico Este                   operador se usa en los casos en que el programador desea documentar las conversiones de tipo implicitas con objeto de aclarar que realmente se desean hacer esas conversiones de tipo.
+switch cambiar La                   sentencia switch se utiliza para realizar una bifurcacion multipledependiendo del valor de una expresion.
+template modelo La                   palabra reservada template se utiliza para crear funciones y clases genericas.
+this esto this                   es un puntero al objeto actualse emplea dentro de una clase para referirse a la instancia actual de dicha clase. Resulta necesario para poder pasar una referencia a de dicha instancia a un metodo externo.
+throw lanzamiento La                   funcion throw se utiliza para llamar al mecanismo de tratamiento de excepciones.
+true verdadero Valor                   verdadero (cierto). Uno de los dos valores enumerados del tipo bool. El literal true(1) se representa por un valor distinto de cero (normalmente 1).
+try tratar se                   utiliza cuando se desean prever excepciones en el transcurso de la ejecucion de un programa. Es necesario ya que ahí se colocan las instrucciones que se desean realizar pese a la excepcion posteriormente se usa un catch donde se especifica la excepción que se sabe puede ocurrir.
+typedef transcribiramaquina se                   utiliza para dar un nuevo nombre a un tipo de dato existente.Esta caracteristica mejora la legibilidad de un programa.
+typeid consultainformacióndeuntipo Se                   utiliza cuando se debe conocer el tipo dinamico de un objeto polimorfico y para la identificacion del tipo estatico.
+typename escribeunnombre Se                   utiliza para especificar que un nombre dependiente en una definicion o declaracion de plantilla.
+union union Tipo                   de dato que se utiliza para asignar almacenamiento de diferentes elementos de datos en la misma posicion.
+unsigned nofirmado El                   calificador de tipos unsigned se utiliza para tipos de datos enteros(char int short int y long int) que informa al compilador que lavariable se utilizara para almacenar solo valores no negativos. Este calificador doble el maximo valor que se pueda almacenar en esa variable.
+using utilizado Declaracion                   using y directiva using. Una declaracion using permite a un cliente tener acceso a todos los nombres del espacio de nombres.
+virtual virtual Especificador                   de una función que declara una función miembro de una clase que se redefinira por una clase derivada.
+void nulo void                   es un tipo de dato que se utiliza para indicar la no existencia de un valor de retorno o argumentos en una declaracion y definicion de una funcion Se puede utilizar tambien void para declarar un puntero a cualquier tipo de objeto dado.
+volatile volatil El                   calificador de tipo volatile se utiliza para indicar que la variable que sigue a volatile se puede modificar por factores externos al control delprograma. Por ejemplo las variables que se cambian por hardware tales como reloj de tiempo real interrupciones u otras entradas se declararan volatile.
+while mientrasque La                   sentencia while permite construir un bucle cuyas sentencias interiores se ejecutan hasta que una condición o expresion se hace falsa (cero).
+exit salir Termina                   el proceso 
+string cadena Es                   un objeto que representa varios caracteres.
+como punto de               partida para la ejecuci¢n del programa 
+como punto de          partida 
+a la ejecucion            de un programa. 
+int entero Se             utiliza para definir un tipo de dato 
+tipo de datos           
+main principal Sirve         como punto de partida  
+else entonces Este        tiene la funcion de ejecutar una intruccion cuando se cumple una condicion  
+prexistente de una       configuracion  
+prexistente de una      configuracion  
+preexistente de una     configuracion 
+preexitente de una   configuracion  
